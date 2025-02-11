@@ -41,16 +41,16 @@ This project serves as a functional MVP of an AI-powered content scheduler, read
 
 ## Fine-Tuning DreamBooth-LoRA
 
-Setup/Installs 
+### Setup/Installs 
 
-# Install diffusers and transformers from source (for cloud notebook environments, i.e. Google Colab)
-# pip install -U torch==2.5.0 torchvision triton==3.1.0 torchmetrics[multimodal] bitsandbytes git+https://github.com/huggingface/diffusers.git git+https://github.com/huggingface/transformers.git
+Install diffusers and transformers from source (for cloud notebook environments, i.e. Google Colab)
+pip install -U torch==2.5.0 torchvision triton==3.1.0 torchmetrics[multimodal] bitsandbytes git+https://github.com/huggingface/diffusers.git git+https://github.com/huggingface/transformers.git
 
-# Additional non-torch related dependencies
-# pip install -U peft matplotlib scikit-image image-reward av==13 imageio[pyav] mediapy git+https://github.com/openai/CLIP.git
+Additional non-torch related dependencies
+pip install -U peft matplotlib scikit-image image-reward av==13 imageio[pyav] mediapy git+https://github.com/openai/CLIP.git
 
 !git clone https://github.com/tgxs002/HPSv2.git
 
-# Install HPSv2
+Install HPSv2
 !pip install ./HPSv2
 
